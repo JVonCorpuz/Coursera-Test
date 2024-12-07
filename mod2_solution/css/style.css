@@ -1,0 +1,111 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 1.75em;
+    
+  }
+  
+  p {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    overflow: auto;
+  }
+  
+  #Breakfast {
+    background-color: rgb(238, 126, 126);
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    float: right;
+    width: 100px;
+    margin-bottom: 1px;
+    margin-left: 100%;
+    text-align: center
+  }
+
+  #Lunch {
+    background-color: rgb(44, 220, 226);
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    float: right;
+    width: 100px;
+    margin-bottom: 1px;
+    margin-left: 100%;
+    text-align: center
+  }
+
+  #Dinner {
+    background-color: rgb(226, 210, 62);
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    float: right;
+    width: 100px;
+    margin-bottom: 1px;
+    margin-left: 100%;
+    text-align: center
+  }
+
+  .Pbox {
+    background-color: rgb(126,211,72);
+    border: 1px solid black;
+  }
+
+  .row {
+    width: 100%;
+  }
+  
+  /********** Desktop **********/
+  @media (min-width: 992px) {
+  .dt-3 {
+      float: left;
+    }
+    .dt-3 {
+      width: 32%;
+      margin-left: 1%;
+    }
+
+  }
+  
+  /********** Tablet **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .tab-6, .tab-12 {
+      float: left;
+    }
+    
+    .tab-6 {
+      width: 48%;
+      margin: 1%;
+    }  
+    .tab-12 {
+      width: 98%;
+      margin: 1%;
+    }
+  }
+
+  /****** Mobile *****/
+  @media (max-width: 767px) {
+   .mob-1 {
+      float: left;
+    }
+    
+    .mob-1 {
+      margin-bottom: 1%;
+    }  
+
+  }
